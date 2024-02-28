@@ -1,5 +1,6 @@
 My Exper
 
+It is an application that keeps damage and paint values ​​​​for many vehicle models and can be output as a PDF in which these values ​​​​and damage are collected.
 This app Uses Clean Swift architecture. Has generic network layer and other best practices.
 
 Folder Structure
