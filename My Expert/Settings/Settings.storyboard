@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="KJv-qG-zMx">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" id="xUa-Tl-7ak" customClass="SettingsViewController" customModule="My_Expert" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jfM-fp-3LH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="y6p-Tn-VQU">
+                                <rect key="frame" x="0.0" y="249.66666666666669" width="393" height="568.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="E0B-vf-rVM">
+                                <rect key="frame" x="12" y="71" width="369" height="26.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="LOGO" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRu-wm-mek">
+                                        <rect key="frame" x="0.0" y="3.3333333333333286" width="178" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMA-5q-OBt">
+                                        <rect key="frame" x="191" y="0.0" width="178" height="26.666666666666668"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Logo" image="square.and.pencil" catalog="system"/>
+                                        <connections>
+                                            <action selector="logoEditClicked:" destination="xUa-Tl-7ak" eventType="touchUpInside" id="apC-DH-Nr6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="229-XM-Ihd">
+                                <rect key="frame" x="136.66666666666666" y="109.66666666666669" width="119.99999999999997" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="229-XM-Ihd" secondAttribute="height" multiplier="1:1" id="9Mu-oL-W5j"/>
+                                    <constraint firstAttribute="height" constant="120" id="Cug-cw-FDf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xo6-BQ-fmc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y6p-Tn-VQU" firstAttribute="top" secondItem="229-XM-Ihd" secondAttribute="bottom" constant="20" id="2HI-SE-oXe"/>
+                            <constraint firstItem="229-XM-Ihd" firstAttribute="top" secondItem="E0B-vf-rVM" secondAttribute="bottom" constant="12" id="5Rg-aY-irB"/>
+                            <constraint firstItem="xo6-BQ-fmc" firstAttribute="trailing" secondItem="y6p-Tn-VQU" secondAttribute="trailing" id="A68-0c-yEc"/>
+                            <constraint firstItem="y6p-Tn-VQU" firstAttribute="leading" secondItem="xo6-BQ-fmc" secondAttribute="leading" id="N9k-sV-i3p"/>
+                            <constraint firstItem="E0B-vf-rVM" firstAttribute="top" secondItem="xo6-BQ-fmc" secondAttribute="top" constant="12" id="dAk-WD-fHz"/>
+                            <constraint firstItem="E0B-vf-rVM" firstAttribute="leading" secondItem="xo6-BQ-fmc" secondAttribute="leading" constant="12" id="dT9-7k-AA6"/>
+                            <constraint firstItem="xo6-BQ-fmc" firstAttribute="bottom" secondItem="y6p-Tn-VQU" secondAttribute="bottom" id="oyn-ad-XoF"/>
+                            <constraint firstItem="xo6-BQ-fmc" firstAttribute="trailing" secondItem="E0B-vf-rVM" secondAttribute="trailing" constant="12" id="z4n-tx-qZg"/>
+                            <constraint firstItem="229-XM-Ihd" firstAttribute="centerX" secondItem="jfM-fp-3LH" secondAttribute="centerX" id="zfe-Za-wtj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logoImage" destination="229-XM-Ihd" id="T0O-Aa-J5b"/>
+                        <outlet property="tableView" destination="y6p-Tn-VQU" id="FSi-6W-tDJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKR-3V-sIf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1130" y="6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" width="512" height="512"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

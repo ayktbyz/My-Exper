@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SummaryViewController.deviceTapped():SummaryViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaultsManager.shared.getIPAdress()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

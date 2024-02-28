@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Book.otf">
+            <string>Gotham-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="vuN-tp-ho9" customClass="HeaderContentTableViewCell" customModule="My_Expert" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vuN-tp-ho9" id="eMz-Hg-EWf">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58Y-M7-Lij">
+                        <rect key="frame" x="10" y="0.0" width="456" height="80"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="o5U-yj-NrS">
+                                <rect key="frame" x="426" y="28" width="20" height="24.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="9Zn-zh-fi8"/>
+                                    <constraint firstAttribute="height" constant="30" id="E8L-yH-haa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pBh-ld-osP">
+                                <rect key="frame" x="0.0" y="15" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Jan-ue-I6K"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eo4-G1-otA">
+                                <rect key="frame" x="88" y="32" width="34.333333333333343" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eo4-G1-otA" firstAttribute="leading" secondItem="pBh-ld-osP" secondAttribute="trailing" constant="8" symbolic="YES" id="IFw-34-krO"/>
+                            <constraint firstAttribute="trailing" secondItem="o5U-yj-NrS" secondAttribute="trailing" constant="10" id="KOn-Ou-aiX"/>
+                            <constraint firstItem="pBh-ld-osP" firstAttribute="centerY" secondItem="eo4-G1-otA" secondAttribute="centerY" id="MUc-vk-vMs"/>
+                            <constraint firstItem="pBh-ld-osP" firstAttribute="top" secondItem="58Y-M7-Lij" secondAttribute="top" constant="15" id="chn-I7-Uf2"/>
+                            <constraint firstItem="eo4-G1-otA" firstAttribute="centerY" secondItem="o5U-yj-NrS" secondAttribute="centerY" id="hID-gw-azl"/>
+                            <constraint firstItem="o5U-yj-NrS" firstAttribute="centerY" secondItem="58Y-M7-Lij" secondAttribute="centerY" id="n8Q-2A-sar"/>
+                            <constraint firstItem="eo4-G1-otA" firstAttribute="leading" secondItem="pBh-ld-osP" secondAttribute="trailing" constant="8" symbolic="YES" id="qap-zK-foM"/>
+                            <constraint firstItem="pBh-ld-osP" firstAttribute="leading" secondItem="58Y-M7-Lij" secondAttribute="leading" id="v05-ME-w0V"/>
+                            <constraint firstItem="pBh-ld-osP" firstAttribute="leading" secondItem="58Y-M7-Lij" secondAttribute="leading" id="v9l-N7-Ddu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="58Y-M7-Lij" secondAttribute="trailing" constant="10" id="45Y-J7-kgp"/>
+                    <constraint firstAttribute="bottom" secondItem="58Y-M7-Lij" secondAttribute="bottom" id="QdB-zi-MX4"/>
+                    <constraint firstItem="58Y-M7-Lij" firstAttribute="top" secondItem="eMz-Hg-EWf" secondAttribute="top" id="fTJ-A9-hgd"/>
+                    <constraint firstItem="58Y-M7-Lij" firstAttribute="leading" secondItem="eMz-Hg-EWf" secondAttribute="leading" constant="10" id="laf-mL-cBX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="ZQf-yv-b9D"/>
+            <connections>
+                <outlet property="arrow" destination="o5U-yj-NrS" id="cDi-pR-2xM"/>
+                <outlet property="carImage" destination="pBh-ld-osP" id="zfx-b4-2SR"/>
+                <outlet property="contentLabel" destination="eo4-G1-otA" id="Y5D-mG-qJ3"/>
+                <outlet property="view" destination="58Y-M7-Lij" id="tI3-eG-qkU"/>
+            </connections>
+            <point key="canvasLocation" x="184.73282442748092" y="33.098591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.right" catalog="system" width="128" height="95"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

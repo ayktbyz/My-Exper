@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; configuration.title = "Kaydet"; ObjectID = "B75-jx-FIk"; */
+"B75-jx-FIk.configuration.title" = "Kaydet";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "B75-jx-FIk"; */
+"B75-jx-FIk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Yardım"; ObjectID = "Hx1-cq-ANC"; */
+"Hx1-cq-ANC.text" = "Yardım";
+
+/* Class = "UILabel"; text = "Ayarlar"; ObjectID = "OTE-VV-hai"; */
+"OTE-VV-hai.text" = "Ayarlar";
+
+/* Class = "UILabel"; text = "Arşiv"; ObjectID = "P1A-ja-wjb"; */
+"P1A-ja-wjb.text" = "Arşiv";
+
+/* Class = "UILabel"; text = "Test"; ObjectID = "eON-Ez-c97"; */
+"eON-Ez-c97.text" = "Test";
+
+/* Class = "UILabel"; text = "Cihaz Bağlantı"; ObjectID = "gm2-GH-qbL"; */
+"gm2-GH-qbL.text" = "Cihaz Bağlantı";

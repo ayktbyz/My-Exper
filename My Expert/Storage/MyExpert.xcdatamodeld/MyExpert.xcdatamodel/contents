@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="UserCarInfo" representedClassName="UserCarInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="carModel" optional="YES" attributeType="String"/>
+        <attribute name="chassisNumber" optional="YES" attributeType="String"/>
+        <attribute name="dotList" optional="YES" attributeType="Transformable"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image1" optional="YES" attributeType="String"/>
+        <attribute name="image2" optional="YES" attributeType="String"/>
+        <attribute name="image3" optional="YES" attributeType="String"/>
+        <attribute name="image4" optional="YES" attributeType="String"/>
+        <attribute name="km" optional="YES" attributeType="String"/>
+        <attribute name="manufacturingYear" optional="YES" attributeType="String"/>
+        <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="noteText" optional="YES" attributeType="String"/>
+        <attribute name="pieces" optional="YES" attributeType="Transformable"/>
+        <attribute name="plateNumber" optional="YES" attributeType="String"/>
+        <attribute name="reportNumber" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="testerName" optional="YES" attributeType="String"/>
+    </entity>
+</model>

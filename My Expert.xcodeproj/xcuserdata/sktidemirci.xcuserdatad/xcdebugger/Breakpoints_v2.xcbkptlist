@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "031B53CC-280B-43EF-B2BB-EF0A4496B634"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3666F9B6-EC60-4A60-A89D-D94058BA90B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62F62704-2D0E-443F-8271-7160DEEE13E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "stackViewTapped(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62F62704-2D0E-443F-8271-7160DEEE13E8 - a68cd72a000aa70d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ViewController.stackViewTapped(sender: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1112">
+               </Location>
+               <Location
+                  uuid = "62F62704-2D0E-443F-8271-7160DEEE13E8 - a68cd72a000aa70d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ViewController.stackViewTapped(sender: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1060">
+               </Location>
+               <Location
+                  uuid = "62F62704-2D0E-443F-8271-7160DEEE13E8 - a68cd72a000aa70d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ViewController.stackViewTapped(sender: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D15E755B-1684-49E3-BFFE-074E7BCB80BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "navigateToSettings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4609A185-F1BD-4847-A2E2-F01037A19CEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "navigateToSettings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F91A605-DF15-4818-884E-0B77BCC9B29F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SettingsViewController/Cell/SettingsTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA9EFAD0-2EB1-4BA3-A18F-046DED03A952"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SettingsViewController/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7129813C-293A-492D-A90D-FC955179196E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SettingsViewController/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "showDialog(position:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CA5C76F-4199-4AF6-B59F-0B1A1E571506"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "stackViewTapped(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CA5C76F-4199-4AF6-B59F-0B1A1E571506 - db0889ba2cfdb591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.pdfTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "362">
+               </Location>
+               <Location
+                  uuid = "3CA5C76F-4199-4AF6-B59F-0B1A1E571506 - db0889ba2cfdb591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.pdfTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "311">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15AD820B-842D-4EF4-97D1-25137E6450F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/Damage/DamageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "saveButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "15AD820B-842D-4EF4-97D1-25137E6450F2 - e17179ee5a917e58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.DamageViewController.saveButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/Damage/DamageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "15AD820B-842D-4EF4-97D1-25137E6450F2 - e17179ee5a917e58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.DamageViewController.saveButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/Damage/DamageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "15AD820B-842D-4EF4-97D1-25137E6450F2 - e17179ee5a917e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.DamageViewController.saveButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/Damage/DamageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA426D9B-11A3-4AA0-86FE-907543617DB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PDFViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "createCombinedText(texts:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA426D9B-11A3-4AA0-86FE-907543617DB6 - 506502c954ccd60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PDFViewController.addLabelAnnotation(cgRect: __C.CGRect, index: Swift.Int, page: __C.PDFPage, image: Swift.String) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "AA426D9B-11A3-4AA0-86FE-907543617DB6 - 506502c954ccf50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PDFViewController.addLabelAnnotation(cgRect: __C.CGRect, index: Swift.Int, page: __C.PDFPage, image: Swift.String) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "AA426D9B-11A3-4AA0-86FE-907543617DB6 - 9a6d507f929aa984"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PDFViewController.createCombinedText(texts: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62685DCA-22ED-4F44-8F26-146130D77C52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PDFViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "preparePDF()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62685DCA-22ED-4F44-8F26-146130D77C52 - 6d6442f051dd4c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PDFViewController.preparePDF() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "5712">
+               </Location>
+               <Location
+                  uuid = "62685DCA-22ED-4F44-8F26-146130D77C52 - 6d6442f051dd4c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PDFViewController.preparePDF() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "5700">
+               </Location>
+               <Location
+                  uuid = "62685DCA-22ED-4F44-8F26-146130D77C52 - 522386e6a5282051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.CGRect in My_Expert.PDFViewController.preparePDF() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PDFViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "978F4C26-5F38-4D9F-BA0A-D6495DFA13F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PointSelect/PointSelectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "selectedIndex"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A2AC404-9CF6-4FDC-8718-F3B84F3413A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PointSelect/PointSelectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "selectedIndex"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D6649A2-06D4-460C-99D8-E6AE00D5B4E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PointSelect/PointSelectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "updateImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3EF657E-01EA-4174-8E18-0A45D7121CE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PointSelect/PointSelectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "updateImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C3786B8-F483-452B-93EE-5C287F5BEA2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/PointSelect/PointSelectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "handleBluetoothData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C3786B8-F483-452B-93EE-5C287F5BEA2A - 88bc4db4c91d0ec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PointSelectViewController.handleBluetoothData(Foundation.Notification) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PointSelect/PointSelectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "4108">
+               </Location>
+               <Location
+                  uuid = "9C3786B8-F483-452B-93EE-5C287F5BEA2A - 88bc4db4c91d0ec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PointSelectViewController.handleBluetoothData(Foundation.Notification) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PointSelect/PointSelectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "4048">
+               </Location>
+               <Location
+                  uuid = "9C3786B8-F483-452B-93EE-5C287F5BEA2A - 88bc4db4c91d0ee1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.PointSelectViewController.handleBluetoothData(Foundation.Notification) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/PointSelect/PointSelectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "1704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "deviceTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - 57faca58bb3692c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "1532">
+               </Location>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - 57faca58bb3692c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "2060">
+               </Location>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - 8379a3641e94d097"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "4636">
+               </Location>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - cb1d6032a18c1f4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - 2cd52765e397a765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "0BDB4D0D-1899-45CB-BB8D-47BA43A415AB - 8379a3641e94d0b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "4952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "deviceTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9 - 57faca58bb3695ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "3044">
+               </Location>
+               <Location
+                  uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9 - 57faca58bb3695c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "3044">
+               </Location>
+               <Location
+                  uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9 - 57faca58bb3695c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "3060">
+               </Location>
+               <Location
+                  uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9 - 2cd52765e397a06d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "7A28A3B3-D8D3-407C-B417-CCCFCFCE9DD9 - 8379a3641e94d79f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.deviceTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "5152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F69A2003-0767-449D-AC70-D929D7614522"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F69A2003-0767-449D-AC70-D929D7614522 - f13688edae3c5c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "F69A2003-0767-449D-AC70-D929D7614522 - 57faca58bb36ea6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.SummaryViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58ADE2F9-1ECA-45AC-B602-486195867A10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ArchiveCarTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "deleteTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58ADE2F9-1ECA-45AC-B602-486195867A10 - aed3b542d2bac515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveCarTableViewCell.addTapGesture(to: __C.UIImageView) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveCarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "58ADE2F9-1ECA-45AC-B602-486195867A10 - cdfe173c8c13e71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveCarTableViewCell.deleteTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveCarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "341A9D95-1340-4376-BE63-647758458E4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ArchiveCarTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "containerTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "341A9D95-1340-4376-BE63-647758458E4E - 828babef155d889e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveCarTableViewCell.deleteTapped(sender: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveCarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "341A9D95-1340-4376-BE63-647758458E4E - 8c0dac8ddaf58eeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveCarTableViewCell.containerTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveCarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A796D47-F6BA-44C3-91C8-73F6C2E5676A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ArchiveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "deleteTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A796D47-F6BA-44C3-91C8-73F6C2E5676A - 6c651df3081e9546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveViewController.deleteTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "0A796D47-F6BA-44C3-91C8-73F6C2E5676A - 6c651df3081e9546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "My_Expert.ArchiveViewController.deleteTapped() -&gt; ()"
+                  moduleName = "My Expert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sktidemirci/Desktop/Side/myexpert/My%20Expert/ArchiveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67621F26-158A-4342-A8F3-6D264C8D559D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/ArchiveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "cellTapped(indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "043FEBC7-B5F0-4DF1-82B5-D70C6E77D930"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/Test/TestViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "679244F7-B612-44A7-8501-8C6C9A0160B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/BluetoothManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "centralManagerDidUpdateState(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7475C86C-41B1-44C9-A00D-2D7F10EEC7FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "My Expert/BluetoothManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "changeScan()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

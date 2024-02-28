@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Point Select View Controller-->
+        <scene sceneID="LxA-mu-wLO">
+            <objects>
+                <viewController storyboardIdentifier="PointSelectViewController" id="wSv-wy-iS1" customClass="PointSelectViewController" customModule="My_Expert" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tt1-oZ-hbz">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gXN-90-b1T">
+                                <rect key="frame" x="71" y="270" width="710" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOa-My-W7g">
+                                        <rect key="frame" x="0.0" y="0.0" width="177.66666666666666" height="90"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="delete.backward" catalog="system" title="Düzelt"/>
+                                        <connections>
+                                            <action selector="deleteClicked:" destination="wSv-wy-iS1" eventType="touchUpInside" id="lHi-lF-Wdh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahV-Oa-pQx">
+                                        <rect key="frame" x="177.66666666666663" y="0.0" width="177.33333333333337" height="90"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrowshape.left" catalog="system" title="Geri"/>
+                                        <connections>
+                                            <action selector="leftClicked:" destination="wSv-wy-iS1" eventType="touchUpInside" id="pvo-oI-yfv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhM-Hb-DLl">
+                                        <rect key="frame" x="355" y="0.0" width="177.66666666666663" height="90"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrowshape.right" catalog="system" title="İleri"/>
+                                        <connections>
+                                            <action selector="rightClicked:" destination="wSv-wy-iS1" eventType="touchUpInside" id="ecM-Jh-8W8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztq-Oc-9Gx">
+                                        <rect key="frame" x="532.66666666666663" y="0.0" width="177.33333333333337" height="90"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Bitir"/>
+                                        <connections>
+                                            <action selector="completeClicked:" destination="wSv-wy-iS1" eventType="touchUpInside" id="sgo-NP-gI8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JpT-PI-8cE">
+                                <rect key="frame" x="79" y="12" width="553.66666666666663" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="lj0-Xo-HWP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noktalar" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufH-7m-hAa">
+                                <rect key="frame" x="642.66666666666663" y="48" width="140.33333333333337" height="212"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nokta Seçiniz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KK-P8-CDp">
+                                <rect key="frame" x="642.66666666666663" y="18" width="140.33333333333337" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rf9-PM-k6B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eQ6-4Q-zAW"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gXN-90-b1T" firstAttribute="top" secondItem="ufH-7m-hAa" secondAttribute="bottom" constant="10" id="1La-NE-9Xx"/>
+                            <constraint firstItem="gXN-90-b1T" firstAttribute="top" secondItem="JpT-PI-8cE" secondAttribute="bottom" constant="8" id="3sm-3R-3g0"/>
+                            <constraint firstItem="ufH-7m-hAa" firstAttribute="leading" secondItem="JpT-PI-8cE" secondAttribute="trailing" constant="10" id="6OE-LZ-4mK"/>
+                            <constraint firstItem="1KK-P8-CDp" firstAttribute="leading" secondItem="JpT-PI-8cE" secondAttribute="trailing" constant="10" id="CwY-Ja-cWC"/>
+                            <constraint firstItem="eQ6-4Q-zAW" firstAttribute="trailing" secondItem="1KK-P8-CDp" secondAttribute="trailing" constant="10" id="GTG-CM-iaf"/>
+                            <constraint firstItem="JpT-PI-8cE" firstAttribute="width" secondItem="tt1-oZ-hbz" secondAttribute="width" multiplier="0.65" id="J1I-KZ-eCu"/>
+                            <constraint firstItem="1KK-P8-CDp" firstAttribute="top" secondItem="eQ6-4Q-zAW" secondAttribute="top" constant="18" id="OKm-db-egZ"/>
+                            <constraint firstItem="eQ6-4Q-zAW" firstAttribute="trailing" secondItem="ufH-7m-hAa" secondAttribute="trailing" constant="10" id="RPg-my-CcO"/>
+                            <constraint firstItem="JpT-PI-8cE" firstAttribute="top" secondItem="eQ6-4Q-zAW" secondAttribute="top" constant="12" id="U2e-aH-Tkj"/>
+                            <constraint firstItem="JpT-PI-8cE" firstAttribute="leading" secondItem="eQ6-4Q-zAW" secondAttribute="leading" constant="20" id="gjD-mY-DiD"/>
+                            <constraint firstItem="eQ6-4Q-zAW" firstAttribute="trailing" secondItem="gXN-90-b1T" secondAttribute="trailing" constant="12" id="h3j-ml-0NA"/>
+                            <constraint firstItem="eQ6-4Q-zAW" firstAttribute="bottom" secondItem="gXN-90-b1T" secondAttribute="bottom" constant="12" id="qXF-06-o6c"/>
+                            <constraint firstItem="ufH-7m-hAa" firstAttribute="top" secondItem="1KK-P8-CDp" secondAttribute="bottom" constant="10" id="tmk-C1-pdB"/>
+                            <constraint firstItem="gXN-90-b1T" firstAttribute="leading" secondItem="eQ6-4Q-zAW" secondAttribute="leading" constant="12" id="wcA-3Y-PJN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="completeButton" destination="ztq-Oc-9Gx" id="w6r-5N-mXR"/>
+                        <outlet property="dotsText" destination="ufH-7m-hAa" id="9OB-Hp-sfh"/>
+                        <outlet property="imageView" destination="JpT-PI-8cE" id="Jus-su-mqI"/>
+                        <outlet property="nextButton" destination="dhM-Hb-DLl" id="9Mx-jB-aUo"/>
+                        <outlet property="previousButton" destination="ahV-Oa-pQx" id="79u-gL-PkQ"/>
+                        <outlet property="removeButton" destination="FOa-My-W7g" id="uzC-XS-yxW"/>
+                        <outlet property="statusLabel" destination="1KK-P8-CDp" id="rQK-CE-AuO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bNP-K0-LBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-489" y="-5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.left" catalog="system" width="128" height="104"/>
+        <image name="arrowshape.right" catalog="system" width="128" height="104"/>
+        <image name="delete.backward" catalog="system" width="128" height="102"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
